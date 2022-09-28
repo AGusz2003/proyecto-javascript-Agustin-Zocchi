@@ -31,7 +31,7 @@ nombreIngresado = prompt ("registra tu nombre para inciar la compra")
 
 
 
-// llamado de funncion
+// llamado de funcion
 seleccionarJuego()
 switch(juegoseleccionado){
   case 1: 
