@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <title>Carrito de Compras </title>
+    </head>
+    <header>
+          <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+<div class="cart-header">
+    <img class="img-cart-header" src="./img/cart2.svg" alt="" width="50px" height="50px">
+</div>
+
+    </header>
+    <body>
+        <section class="container content-section">
+            <h2 class="section-header">CATALOGO DISPONIBLE</h2>
+            <div class="shop-items">
+             <!-- comentar desde aquí -->
+                 <div class="shop-item">
+                    <span class="shop-item-title">ITEM 1</span>
+                    <img class="shop-item-image" src="./img/fifa-23-cover-star-kylian-mbappe.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">US$69.99</span>
+                        <button id="shop-item-button" class="btn btn-primary shop-item-button" type="button">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">ITEM 2</span>
+                    <img class="shop-item-image" src="./img/nba2k23.jfif" >
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">US$69.99</span>
+                        <button id="shop-item-button" class="btn btn-primary shop-item-button" type="button">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">ITEM 3</span>
+                    <img class="shop-item-image" src="./img/spiderman.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price"> US$49.99</span>
+                        <button id="shop-item-button" class="btn btn-primary shop-item-button" type="button">AÑADIR AL CARRITO</button>
+                    </div>
+                </div>
+
+                <div class="shop-item">
+                    <span class="shop-item-title">ITEM 4</span>
+                    <img class="shop-item-image" src="./img/God of War Ragnarök.webp">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">US$69.99</span>
+                        <button id="shop-item-button" class="btn btn-primary shop-item-button" type="button">AÑADIR AL CARRITO</button>
+                    </div>
+                </div> 
+
+                <div class="shop-item">
+                    <span class="shop-item-title">ITEM 5</span>
+                    <img class="shop-item-image" src="./img/dragon ball.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">US$19.99</span>
+                        <button id="shop-item-button" class="btn btn-primary shop-item-button" type="button">AÑADIR AL CARRITO</button>
+                    </div>
+                </div> 
+
+                <div class="shop-item">
+                    <span class="shop-item-title">ITEM 6</span>
+                    <img class="shop-item-image" src="./img/NFL PRO ERA.jfif">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">US$29.99</span>
+                        <button id="shop-item-button" class="btn btn-primary shop-item-button" type="button">AÑADIR AL CARRITO</button>
+                    </div>
+                </div> 
+                <!-- comentar desde aquí -->
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CARRITO </h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRECIO</span>
+                <span class="cart-quantity cart-header cart-column">CANTIDAD</span>
+            </div>
+            <div class="cart-items">
+                <!-- comentar desde aquí -->
+                 <!-- <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./img/fifa-23-cover-star-kylian-mbappe.jpg" width="100" height="100">
+                        <span class="cart-item-title">FIFA 23</span>
+                    </div>
+                    <span class="cart-price cart-column">US$69.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" min="1" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVER</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./img/nba2k23.jfif" width="100" height="100">
+                        <span class="cart-item-title">NBA 2k23</span>
+                    </div>
+                    <span class="cart-price cart-column">US$69.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" min="1" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVER</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./img/spiderman.jpg" width="100" height="100">
+                        <span class="cart-item-title">SPIDERMAN MILES MORALES</span>
+                    </div>
+                    <span class="cart-price cart-column">US$49.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" min="1" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVER</button>
+                    </div>
+                </div>
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./img/God of War Ragnarök.webp" width="100" height="100">
+                        <span class="cart-item-title">God of War Ragnarök</span>
+                    </div>
+                    <span class="cart-price cart-column">US$69.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" min="1" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVER</button>
+                    </div>
+                </div> 
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./img/dragon ball.jfif" width="100" height="100">
+                        <span class="cart-item-title">DRAGON BALL: THE BREAKERS</span>
+                    </div>
+                    <span class="cart-price cart-column">US$19.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" min="1" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVER</button>
+                    </div>
+                </div> 
+                <div class="cart-row">
+                    <div class="cart-item cart-column">
+                        <img class="cart-item-image" src="./img/NFL PRO ERA.jfif" width="100" height="100">
+                        <span class="cart-item-title">NFL PRO ERA</span>
+                    </div>
+                    <span class="cart-price cart-column">US$29.99</span>
+                    <div class="cart-quantity cart-column">
+                        <input class="cart-quantity-input" min="1" type="number" value="1">
+                        <button class="btn btn-danger" type="button">REMOVER</button>
+                    </div>
+                </div>  -->
+                <!-- hasta aquí -->
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price"></span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">COMPRAR</button>
+        </section>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
