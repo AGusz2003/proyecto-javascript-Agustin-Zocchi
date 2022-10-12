@@ -12,7 +12,7 @@ border-radius: 1.2em;
 
 
 :root{
-    --font: Verdana, Geneva, Tahoma, sans-serif;
+    --font: Verdana, geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -25,6 +25,7 @@ html, body {
     margin: 0;
     padding: 0;
     min-height: 100%;
+    background-image: linear-gradient(to bottom, #531b8c, #9c007e, #ce0063, #ea2d42, #f26716);
 }
 
 .nav ul {
