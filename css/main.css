@@ -1,0 +1,94 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    background-image: linear-gradient(to bottom, #531b8c, #9c007e, #ce0063, #ea2d42, #f26716);
+}
+
+.navbar{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.shop-content {
+    
+   display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+  
+}
+.tarjeta {
+    color: #fff;
+    font-size: 22px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+    margin-bottom: 7px;
+    
+}
+
+.tarjeta > img{
+    width: 90%;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.tarjeta button {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    text-align: center;
+    cursor: alias;
+    width: 100%;
+    font-size: 25px;
+}
+
+modal-contenido { 
+width: 80%;
+margin: 0 10%; 
+max-height: 88vh; 
+color: #fff;
+background-color: black;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: fixed;
+overflow: auto;
+z-index: 9; 
+top: 12vh;
+scrollbar-color: none;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-around; 
+    color: #fff;
+    width: 100%;
+}
+.modal-container .modal-contenido { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    margin: 10px;
+}
+modal-header-title { 
+    justify-self: start;
+}
+.modal-header-button {
+    cursor:alias;
+}
+.total-content {
+    font-size: 25px; padding: 20px;
+    text-align: center; padding-top: 20px;
+}
+.modal-container > div > img {
+height: 120px;
+width: 120px;
+}
+.div .contenido-total {
+    flex-direction: column;
+
+}
